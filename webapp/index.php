@@ -10,8 +10,22 @@
 		
 		<link rel = "stylesheet" type = "text/css" href = "../css/common.css">
 	</head>
-	<body>
-		<h2> PHP Project start!! </h2>
+	<body class="home-page">
+		<div class="inner header"> 		
+			<div class="top-menu">
+				<div class="top-bar-left"></div>
+				<div class="top-bar"></div>
+				<div class="top-bar-right"></div>
+				<div class="message">뛰어난 보냉력을 자랑하는 휴가철 필수품 </div>
+				
+				<div class="menu">
+					<a class="item support last" torollover="support" href="">SUPPORT
+						<div class="arrow-container"><div class="arrow"></div></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
 		
 		<?php include "common/footer/footer.php" ?>
 	</body>
