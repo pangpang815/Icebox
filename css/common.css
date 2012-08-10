@@ -2,7 +2,8 @@
 
 /* common */
 body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, select, button {margin:0;padding:0}
-body,input,textarea,select,table,button{font-family:'돋움',dotum,AppleGothic,sans-serif;font-size:12px;line-height:16px}
+body,input,textarea,select,table,button{font: 11px Arial, Helvetica, sans-serif;line-height:16px}
+										
 img, fieldset {border:0}
 hr {display:none}
 li {list-style:none}
@@ -19,6 +20,11 @@ a:active, a:focus {text-decoration:underline}
 .home-page .top-menu .top-bar-left { left: -21px }
 .home-page .top-menu .top-bar-right { right: -21px }
 
+.home-page .billboard {
+	height: 445px
+}
+
+
 .top-menu { position: relative;	width: 100%; height: 59px; margin: 0 auto }
 .top-menu .top-bar,.top-menu .top-bar-right,.top-menu .top-bar-left { position: absolute; width: 5px; height: 5px }
 .top-menu .top-bar-left { left: -7px; background: url(../images/top_bg_left.png) no-repeat }
@@ -32,19 +38,19 @@ a:active, a:focus {text-decoration:underline}
 .top-menu .item .arrow-container { position: absolute; top: -31px; right: 3px; overflow: hidden; width: 20px; height: 16px }
 .top-menu .item .arrow { position: absolute; top: -16px; width: 20px; height: 16px; background: url(../images/arrow.png) }
 .top-menu .item:hover  .arrow { top: 0 }
-
 .top-menu .item.support { background: url(../images/icon_support.png) right no-repeat }
 .top-menu .item.support:hover { background: url(../images/icon_support-active.png) right no-repeat }
-
 .top-menu .item.signin { background: url(../images/icon_signin.png) right no-repeat }
 
+.main-menu { position: relative; height: 84px; margin-top: 40px }
+.main-menu .logo { position: absolute; left: 0; top: 0; bottom: 0; margin: auto 0; width: 200px; height: 80px }
+.main-menu .menu { position: absolute; left: 240px; top: 0; bottom: 0; margin: auto 0; height: 34px; text-transform: uppercase;}
+.main-menu .item { float: left; padding: 5px 0; font-size: 20px; color: #2b3220; text-align: center; position: relative }
+.main-menu .item:hover { color: #008AC6; }
+.main-menu .item1, .main-menu .item2, .main-menu .item3, .main-menu .item4, .main-menu .item5 { width: 135px; }
 
 .last { margin-right: 0 !important }
-
-
-.main-menu .item:hover,.main-menu .item.active { color: #f00 }
-
-
+.futura { font-family: candara }
 
 /* UI Object */
 #footer{clear:both;margin:0;padding:22px 0 30px;border-top:1px solid #dedede;text-align:center}
