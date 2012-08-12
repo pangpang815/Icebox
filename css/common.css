@@ -35,15 +35,67 @@ a:active, a:focus {text-decoration:underline}
 .home-page .billboard .fill-blue {
 	height: inherit;
 	background:
-		url(../images/blue.png)
+		url(../images/green.png)
 		bottom repeat-x
 }
 
 .home-page .billboard .slide-3 {
 	height: inherit;
 	background:
-		url(../images/slide_box.png)
-		center bottom no-repeat
+		url(../images/spring2.png)
+		center bottom no-repeat;
+	filter:alpha( opacity=20,style=1)		
+}
+
+.home-page .pager {
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 90px
+}
+
+.home-page .pager a {
+	width: 14px;
+	height: 13px;
+	float: left;
+	margin-right: 14px;
+	background:
+		url(../images/pager_inactive.png)
+}
+
+.home-page .pager a:hover,.home-page .pager .activeSlide {
+	background:
+		url(../images/pager_active.png)
+}
+
+.home-page .title {
+	display: block;
+	margin-top: 30px;
+	font-size: 26px;
+	line-height: 28px
+}
+
+.home-page .description {
+	margin-top: 15px;
+	padding-right: 65px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #797979
+}
+
+.home-page .marketing .g3-l3 .description {
+	padding-right: 40px
+}
+
+.home-page .marketing {
+	height: 270px;
+	padding-top: 30px;
+	background:
+		url(/assets/home/marketing_fill-af1d1a5f8737d9ae553894c1acacee3b.png)
+		bottom repeat-x
+}
+
+.home-page .marketing .g3-l3 .description {
+	padding-right: 40px
 }
 
 .grid-container {
@@ -59,6 +111,18 @@ a:active, a:focus {text-decoration:underline}
 
 .home-page .billboard .g3-l3 {
 	top: 110px
+}
+
+.g3-l1 {
+	position: absolute;
+	width: 306px;
+	left: 0
+}
+
+.g3-l2 {
+	position: absolute;
+	width: 306px;
+	left: 327px
 }
 
 .g3-l3 {
