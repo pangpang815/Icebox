@@ -7,10 +7,11 @@
 		<meta http-equiv="Content-Style-Type" content="text/css" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		
-<!--  <link rel="shortcut icon" type="image/x-icon" href="http://static.naver.net/www/favicon.ico" />  -->
 		<link rel = "stylesheet" type = "text/css" href = "../css/common.css">
 		<link rel="shortcut icon" href="../images/favicon.ico">
 		<script src="../js/common.js" type="text/javascript"></script>
+		<script src="../js/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="../js/slides.jquery.js" type="text/javascript"></script>
 	</head>
 	<body class="home-page">
 		<div class="inner header"> 		
