@@ -32,11 +32,32 @@ a:active, a:focus {text-decoration:underline}
 	position: relative
 }
 
-.home-page .billboard .fill-blue {
+.home-page .billboard .fill-green {
 	height: inherit;
 	background:
 		url(../images/green.png)
 		bottom repeat-x
+}
+
+.home-page .billboard .fill-violet {
+	height: inherit;
+	background:
+		url(http://www.ditto.com//assets/home/fill_violet-551e4a2835bb73cdd4454d409392e31d.jpg)
+		bottom repeat-x
+}
+
+.home-page .billboard .slide-1 {
+	height: inherit;
+	background:
+		url(/assets/home/slide_main-97576fb56535ec916aae85cd5663fab2.png)
+		center bottom no-repeat
+}
+
+.home-page .billboard .slide-2 {
+	height: inherit;
+	background:
+		url(/assets/home/slide_chloe-35813a8ae5e1f61ba827bd90253292c6.png)
+		center bottom no-repeat
 }
 
 .home-page .billboard .slide-3 {

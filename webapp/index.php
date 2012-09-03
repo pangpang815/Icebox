@@ -12,38 +12,63 @@
 		<script src="../js/common.js" type="text/javascript"></script>
 		<script src="../js/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="../js/slides.jquery.js" type="text/javascript"></script>
+		<script src="../js/rolling.js" type="text/javascript"></script>
 	</head>
 	<body class="home-page">
-		<div class="inner header"> 		
-			<?php include "common/header/top_menu.php" ?>
-		</div>
+		<?php include "common/header/top_menu.php" ?>
 		
-		<div class="billboard master-fader">
-			<div class="container container-fill fill-blue">
-			  <div class="slide-3">
-			  <div class="grid-container">
-			  <div class="grid">
-			    <div class="g3-l3">
-<!-- 
-			    <div class="texts" style="opacity: 1; ">
-			        <h1>See yourself<br>flying</h1>
-			        <a href="/products/aviators" class="button">
-			          <div class="lt"></div>
-			          <div class="rt"></div>
-			          <div class="lb"></div>
-			          <div class="rb"></div>
-			          Shop aviators
-			        </a>
-			      </div> -->
-			    </div>
-			  </div>
-			  </div>
-			  </div>
-			  </div>
-		</div>
+	<div id="slides">
+		<div class="billboard master-fader slides_container">
 
-		<div class="pager"><a href="#" class=""></a><a href="#" class=""></a><a href="#" class="activeSlide"></a></div>
+			<div class="container container-fill fill-violet">
+  				<div class="slide-1">
+  					<div class="grid-container">
+  						<div class="grid">
+    						<div class="g3-l3">
+      							<div class="texts" style="opacity: 1; ">
+        							<h1>See yourself<br>flying</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container container-fill fill-blue">
+  				<div class="slide-2">
+  					<div class="grid-container">
+  						<div class="grid">
+    						<div class="g3-l3">
+      							<div class="texts" style="opacity: 1; ">
+        							<h1>See yourself<br>flying</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container container-fill fill-green">
+				<div class="slide-3">
+					<div class="grid-container">
+			  			<div class="grid">
+			    			<div class="g3-l3">
+			    				<div class="texts" style="opacity: 1;">
+			    					<h1>See yourself<br>flying</h1>
+			    				</div>
+			    			</div>
+			  			</div>
+			  		</div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+		</ul><a href="#" class="prev">Prev</a><a href="#" class="next">Next</a>
 		
+		
+ 	<div class="pager"><a href="#" class=""></a><a href="#" class=""></a><a href="#" class="activeSlide"></a></div>	
+		
+<!-- 		
 		<div class="marketing">
   <div class="grid-container">
     <div class="grid">
@@ -58,7 +83,7 @@
           the pair that’s right for you.
         </div>
       </div>
-
+ -->
       <div class="g3-l2">
         <a href="/tryon/doctora-espl04/C#ask-stylist">
           <img src="/assets/button_ask_a_stylist-939c3381a4bd9f3e482fee02bfe64100.png">

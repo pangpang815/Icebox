@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<body>
+	<div class="inner header">
 		<div class="top-menu">
 			<div class="top-bar-left"></div>
 			<div class="top-bar"></div>
@@ -27,6 +28,6 @@
 				<a class="item item5" href="">RoadMap</a>
 			</div>
 		</div>
-		
+	</div>
 	</body>
 </html>
