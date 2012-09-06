@@ -17,10 +17,10 @@
 	<body class="home-page">
 		<?php include "common/header/top_menu.php" ?>
 		
-	<div id="slides">
+
 		<div class="billboard master-fader slides_container">
 
-			<div class="container container-fill fill-violet">
+			<div class="container container-fill fill-violet" style="display: none;">
   				<div class="slide-1">
   					<div class="grid-container">
   						<div class="grid">
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 
-			<div class="container container-fill fill-green">
+			<div class="container container-fill fill-green" style="display: none;">
 				<div class="slide-3">
 					<div class="grid-container">
 			  			<div class="grid">
@@ -61,12 +61,8 @@
 			  		</div>
 			  	</div>
 			</div>
-		</div>
-	</div>
-		</ul><a href="#" class="prev">Prev</a><a href="#" class="next">Next</a>
-		
-		
- 	<div class="pager"><a href="#" class=""></a><a href="#" class=""></a><a href="#" class="activeSlide"></a></div>	
+		</div>	
+ 		<div class="pager"></div>	
 		
 <!-- 		
 		<div class="marketing">
