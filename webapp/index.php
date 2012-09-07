@@ -13,14 +13,19 @@
 		<script src="../js/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="../js/slides.jquery.js" type="text/javascript"></script>
 		<script src="../js/rolling.js" type="text/javascript"></script>
+		
+		<script>
+
+			$("#banner").Fading({motion:"start", delayTime:3000, intervalTime:1000});
+		</script>
 	</head>
 	<body class="home-page">
 		<?php include "common/header/top_menu.php" ?>
 		
 
-		<div class="billboard master-fader slides_container">
+		<div id="banner" class="billboard master-fader slides_container">
 
-			<div class="container container-fill fill-violet" style="display: none;">
+			<div class="container container-fill fill-violet">
   				<div class="slide-1">
   					<div class="grid-container">
   						<div class="grid">
@@ -34,7 +39,7 @@
 				</div>
 			</div>
 
-			<div class="container container-fill fill-blue">
+			<div class="container container-fill fill-blue" style="display: none;">
   				<div class="slide-2">
   					<div class="grid-container">
   						<div class="grid">
