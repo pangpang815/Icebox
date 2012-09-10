@@ -16,7 +16,12 @@
 		
 		<script>
 
-			$("#banner").Fading({motion:"start", delayTime:3000, intervalTime:1000});
+			//$("#banner").Fading({motion:"start", delayTime:3000, intervalTime:1000});
+			
+
+			jQuery(document).ready(function () {
+				fading("banner");
+			});
 		</script>
 	</head>
 	<body class="home-page">
@@ -84,7 +89,7 @@
           the pair that’s right for you.
         </div>
       </div>
- -->
+
       <div class="g3-l2">
         <a href="/tryon/doctora-espl04/C#ask-stylist">
           <img src="/assets/button_ask_a_stylist-939c3381a4bd9f3e482fee02bfe64100.png">
@@ -108,10 +113,11 @@
           to you sitting on them in your car.
         </div>
       </div>
+
     </div>
   </div>
 </div>
-
+ -->
 		<?php include "common/footer/footer.php" ?>
 	</body>
 </html>
