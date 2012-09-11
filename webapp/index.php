@@ -15,10 +15,6 @@
 		<script src="../js/rolling.js" type="text/javascript"></script>
 		
 		<script>
-
-			//$("#banner").Fading({motion:"start", delayTime:3000, intervalTime:1000});
-			
-
 			jQuery(document).ready(function () {
 				fading("banner");
 			});
@@ -29,51 +25,8 @@
 		
 
 		<div id="banner" class="billboard master-fader slides_container">
-
-			<div class="container container-fill fill-violet">
-  				<div class="slide-1">
-  					<div class="grid-container">
-  						<div class="grid">
-    						<div class="g3-l3">
-      							<div class="texts" style="opacity: 1; ">
-        							<h1>See yourself<br>flying</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="container container-fill fill-blue" style="display: none;">
-  				<div class="slide-2">
-  					<div class="grid-container">
-  						<div class="grid">
-    						<div class="g3-l3">
-      							<div class="texts" style="opacity: 1; ">
-        							<h1>See yourself<br>flying</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="container container-fill fill-green" style="display: none;">
-				<div class="slide-3">
-					<div class="grid-container">
-			  			<div class="grid">
-			    			<div class="g3-l3">
-			    				<div class="texts" style="opacity: 1;">
-			    					<h1>See yourself<br>flying</h1>
-			    				</div>
-			    			</div>
-			  			</div>
-			  		</div>
-			  	</div>
-			</div>
-		</div>	
- 		<div class="pager"></div>	
-		
+			<?php include "common/page/bannerBoard.php" ?>
+		</div>
 <!-- 		
 		<div class="marketing">
   <div class="grid-container">

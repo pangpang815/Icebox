@@ -68,26 +68,6 @@ a:active, a:focus {text-decoration:underline}
 	filter:alpha( opacity=20,style=1)		
 }
 
-.home-page .pager {
-	padding-top: 20px;
-	margin: 0 auto;
-	width: 90px
-}
-
-.home-page .pager a {
-	width: 14px;
-	height: 13px;
-	float: left;
-	margin-right: 14px;
-	background:
-		url(../images/pager_inactive.png)
-}
-
-.home-page .pager a:hover,.home-page .pager .activeSlide {
-	background:
-		url(../images/pager_active.png)
-}
-
 .home-page .title {
 	display: block;
 	margin-top: 30px;
@@ -201,4 +181,58 @@ a:active, a:focus {text-decoration:underline}
 #footer address em{padding-left:6px;font-family:Verdana;font-size:9px}
 #footer address .logo{display:inline-block;*display:inline;vertical-align:top;*vertical-align:baseline}
 #footer address .logo_v1{position:relative;top:-2px}
+
+
+/* footer */
+div#soho-footer {
+	width:100%;
+	min-width:920px;
+	border-top:1px solid #dcdcdc;
+	color:#636363;
+	font-family:Dotum, '돋움', sans-serif;
+	font-size:11px ;
+}
+	/* Reset */
+	#soho-footer div{font-size:11px ;}
+	#soho-footer em {font-style:normal;}
+	div#soho-footer div.foot {
+		width:920px;
+		margin:auto;
+		padding:20px 0 0;
+		color:#919191;
+	}
+		div#soho-footer div.foot .footerCont {overflow:hidden; height:60px;}
+		div#soho-footer div.foot div.comp,
+		div#soho-footer div.foot div.cust {
+			float:left;
+			padding-bottom:16px;
+			line-height:15px;
+			letter-spacing:-1px;
+			color:#919191; /* 2011-08-31 추가 */
+		}
+		div#soho-footer div.foot div.cust {
+			width:574px;
+		}
+		div#soho-footer div.foot div.comp {
+			width:320px;
+			padding-left:26px;
+			background:url('http://image.gmarket.co.kr/soho/2011/07/18/foot_comp_bg.gif') no-repeat 0 0;
+		}
+			div#soho-footer div.foot div.comp em,
+			div#soho-footer div.foot div.cust em {
+				color:#000;
+				padding-right:17px;
+			}
+			div#soho-footer div.foot span.line {
+				margin-left:11px;
+				padding-left:15px;
+				background:url('http://image.gmarket.co.kr/soho/20110307/footmenu_bg.gif') no-repeat 0 0;
+			}
+
+		div#soho-footer div.foot span.ls-d {letter-spacing:0;}
+
+		div#soho-footer div.foot div.copy {
+			padding:17px 0 40px;
+			text-align:center;
+		}
 /* //UI Object */
